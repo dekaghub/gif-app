@@ -28,7 +28,6 @@ h1 {
 
 input {
     margin-top: 20px;
-    border-radius: 50px;
     letter-spacing: 0.7px;
     width: 200px;
     font-size: large;
@@ -37,13 +36,24 @@ input {
 }
 
 button {
-    margin: 20px 0;
+    margin: 10px 0;
+    padding: 10px 10px;
     text-decoration: none;
+    background: rgb(204, 204, 204);
     outline: none;
     cursor: pointer;
-    text-transform: uppercase;
     border-radius: 50px;
-    width: 200px;
+    width: auto;
     font-size: large;
     letter-spacing: 0.7px;
   }
+
+  button:hover {
+    background: #fcd3b0;
+    color: rgb(66, 66, 66);
+}
+
+button:active {
+    background: #fff349;
+    color: black;
+}

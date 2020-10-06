@@ -6,6 +6,10 @@ import './App.css'
 const App = () => (
     <div>
         <h1> A gif App</h1>
+        <div className="main-container">
+            <Random />
+            <Tag />
+        </div>
     </div>
 )
 
